@@ -1,0 +1,32 @@
+[
+  {
+    "section": "orders",
+    "titleId": "vbase-example.navigation.title",
+    "subSectionItems": [
+      {
+        "labelId": "vbase-example.navigation.send-data",
+        "path": "/admin/vbase-example/send-data"
+      },
+      {
+        "labelId": "vbase-example.navigation.read-data",
+        "path": "/admin/vbase-example/read-data"
+      }
+    ]
+  },
+  {
+    "adminVersion": 4,
+    "section": "orders",
+    "titleId": "vbase-example.navigation.title",
+    "subSection": "vbase-example.navigation.subSection",
+    "subSectionItems": [
+      {
+        "labelId": "vbase-example.navigation.send-data",
+        "path": "/admin/vbase-example/send-data"
+      },
+      {
+        "labelId": "vbase-example.navigation.read-data",
+        "path": "/admin/vbase-example/read-data"
+      }
+    ]
+  }
+]

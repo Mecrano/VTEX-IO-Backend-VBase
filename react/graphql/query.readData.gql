@@ -1,0 +1,8 @@
+query getData {
+  readData {
+    name
+    lastName
+    phone
+    dni
+  }
+}

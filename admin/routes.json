@@ -1,0 +1,10 @@
+{
+  "admin.app.send-data": {
+    "component": "SendData",
+    "path": "/admin/app/vbase-example/send-data"
+  },
+  "admin.app.read-data": {
+    "component": "ReadData",
+    "path": "/admin/app/vbase-example/read-data"
+  }
+}

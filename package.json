@@ -1,10 +1,11 @@
 {
-  "name": "service-example",
+  "name": "CHANGE_ME",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint --ext js,jsx,ts,tsx .",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "graphql-markdown": "node graphql-markdown-generator.js"
   },
   "husky": {
     "hooks": {
@@ -21,14 +22,22 @@
     ]
   },
   "devDependencies": {
+    "@graphql-tools/load-files": "^6.5.3",
+    "@graphql-tools/merge": "^8.2.13",
+    "@graphql-tools/schema": "^8.3.13",
+    "@graphql-tools/stitching-directives": "^2.2.17",
     "@types/node": "^12.12.21",
-    "@vtex/prettier-config": "^0.3.6",
+    "@vtex/api": "^6.45.12",
     "@vtex/danger": "^0.2.7",
-    "eslint": "^7.16.0",
-    "eslint-config-vtex": "^12.9.3",
-    "husky": "^4.3.6",
-    "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1",
-    "typescript": "^3.7.5"
+    "@vtex/prettier-config": "^0.3.1",
+    "eslint": "^6.8.0",
+    "eslint-config-vtex": "^12.7.0",
+    "eslint-config-vtex-react": "6.3.2",
+    "graphql": "^15.0.0",
+    "graphql-markdown": "^6.0.0",
+    "husky": "^4.2.0",
+    "lint-staged": "^10.0.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
   }
 }

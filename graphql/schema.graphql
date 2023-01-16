@@ -1,0 +1,14 @@
+type Person {
+  name: String
+  lastName: String
+  phone: String
+  dni: String
+}
+
+type Query {
+  readData: Person
+}
+
+type Mutation {
+  saveData(name: String, lastName: String, phone: String, dni: String): Person
+}

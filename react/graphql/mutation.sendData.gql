@@ -1,0 +1,13 @@
+mutation sendData(
+  $name: String
+  $lastName: String
+  $phone: String
+  $dni: String
+) {
+  saveData(name: $name, lastName: $lastName, phone: $phone, dni: $dni) {
+    name
+    lastName
+    phone
+    dni
+  }
+}
